@@ -1,0 +1,39 @@
+.container{
+   /* border: 2px solid red;  */
+   height: 100vh;
+   color: white;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+}
+
+.header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.search input{
+    width: 100%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    background-color: inherit;
+    border: none;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    
+    color: white;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.search button{
+    width: 70px;
+    height: 30px;
+}
